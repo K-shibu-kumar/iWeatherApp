@@ -25,7 +25,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zns-wP-S2y">
                                 <rect key="frame" x="5" y="94.333333333333343" width="420" height="103.33333333333334"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRF-Mw-bZq">
+                                    <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRF-Mw-bZq">
                                         <rect key="frame" x="27" y="23" width="60" height="59.999999999999986"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -46,7 +46,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="uZg-ww-qqH">
+                                    <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="uZg-ww-qqH">
                                         <rect key="frame" x="333" y="23" width="60" height="60"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -90,7 +90,7 @@
                                 <color key="textColor" name="weatherColour"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.sun.bolt" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sz7-AU-o4P" userLabel="Condition Image View">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.sun.bolt" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sz7-AU-o4P" userLabel="Condition Image View">
                                 <rect key="frame" x="114.99999999999999" y="363.33333333333331" width="200.66666666666669" height="205.66666666666669"/>
                                 <color key="tintColor" name="Color1"/>
                                 <constraints>
@@ -102,8 +102,8 @@
                                 <rect key="frame" x="65" y="591" width="300" height="150"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuI-OT-3Gb" userLabel="Temperature Label 3">
-                                        <rect key="frame" x="202" y="21" width="43.333333333333343" height="97"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="60"/>
+                                        <rect key="frame" x="190" y="30" width="30" height="88"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="60"/>
                                         <color key="textColor" name="weatherColour"/>
                                         <color key="highlightedColor" name="weatherColour"/>
                                     </label>
@@ -114,8 +114,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="60" translatesAutoresizingMaskIntoConstraints="NO" id="hiS-aX-ZKS" userLabel="Temperature Label 1">
-                                        <rect key="frame" x="29.333333333333321" y="23" width="125.66666666666669" height="104"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="60"/>
+                                        <rect key="frame" x="44" y="23" width="111" height="104"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="60"/>
                                         <color key="textColor" name="weatherColour"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -126,13 +126,13 @@
                                     <constraint firstAttribute="trailing" secondItem="62y-af-jPv" secondAttribute="trailing" constant="118" id="52D-Uk-Wio"/>
                                     <constraint firstItem="62y-af-jPv" firstAttribute="top" secondItem="ePQ-T6-c7E" secondAttribute="top" constant="15" id="7Nd-Ah-qJH"/>
                                     <constraint firstAttribute="height" constant="150" id="Cq1-Dl-aAT"/>
-                                    <constraint firstAttribute="trailing" secondItem="ZuI-OT-3Gb" secondAttribute="trailing" constant="54.666666666666657" id="EeW-7M-7sW"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZuI-OT-3Gb" secondAttribute="trailing" constant="80" id="EeW-7M-7sW"/>
                                     <constraint firstAttribute="bottom" secondItem="62y-af-jPv" secondAttribute="bottom" constant="41.666666666666686" id="I8m-Ke-CRr"/>
                                     <constraint firstItem="62y-af-jPv" firstAttribute="leading" secondItem="ePQ-T6-c7E" secondAttribute="leading" constant="142" id="J7f-nm-CW9"/>
                                     <constraint firstAttribute="trailing" secondItem="hiS-aX-ZKS" secondAttribute="trailing" constant="145" id="NWk-Kq-DbU"/>
                                     <constraint firstAttribute="bottom" secondItem="hiS-aX-ZKS" secondAttribute="bottom" constant="23" id="RLv-mS-UG9"/>
                                     <constraint firstItem="hiS-aX-ZKS" firstAttribute="top" secondItem="ePQ-T6-c7E" secondAttribute="top" constant="23" id="Snx-xo-StP"/>
-                                    <constraint firstItem="ZuI-OT-3Gb" firstAttribute="top" secondItem="ePQ-T6-c7E" secondAttribute="top" constant="21" id="TUo-P1-Xtd"/>
+                                    <constraint firstItem="ZuI-OT-3Gb" firstAttribute="top" secondItem="ePQ-T6-c7E" secondAttribute="top" constant="30" id="TUo-P1-Xtd"/>
                                     <constraint firstItem="hiS-aX-ZKS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ePQ-T6-c7E" secondAttribute="leading" constant="20" symbolic="YES" id="rWJ-Yj-IzJ"/>
                                     <constraint firstItem="ZuI-OT-3Gb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="62y-af-jPv" secondAttribute="trailing" constant="8" symbolic="YES" id="sqQ-Hm-2Aj"/>
                                 </constraints>
