@@ -34,5 +34,3 @@ Overall, iWeatherApp combines cutting-edge technologies and design principles to
 
 
 
-
-![End Banner](Documentation/noxid_end_banner.png)
