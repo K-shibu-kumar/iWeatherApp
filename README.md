@@ -30,6 +30,7 @@ Overall, iWeatherApp combines cutting-edge technologies and design principles to
 * OpenWeather API
 * Core Location
 * MVC Design pattern
+* Rest API
 
 
 
