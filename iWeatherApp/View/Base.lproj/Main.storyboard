@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="uV2-8Z-WDR">
-                                <rect key="frame" x="0.0" y="-414" width="430" height="1693"/>
+                                <rect key="frame" x="-11" y="-414" width="441" height="1693"/>
                                 <color key="tintColor" red="0.23921570180000001" green="0.24313727020000001" blue="0.33725491169999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zns-wP-S2y">
@@ -146,12 +146,9 @@
                             <constraint firstAttribute="bottom" secondItem="uV2-8Z-WDR" secondAttribute="bottom" constant="-347" id="AGj-Pb-Jgh"/>
                             <constraint firstItem="a9h-1p-VM1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ENs-ar-4Zc"/>
                             <constraint firstItem="ePQ-T6-c7E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EQp-XZ-exh"/>
-                            <constraint firstItem="uV2-8Z-WDR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HoU-gI-3Kh"/>
                             <constraint firstAttribute="bottom" secondItem="uV2-8Z-WDR" secondAttribute="bottom" constant="-347" id="KQ4-fr-zcv"/>
                             <constraint firstItem="Sz7-AU-o4P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RJ6-wQ-UKd"/>
-                            <constraint firstItem="uV2-8Z-WDR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-455" id="V1a-27-9X0"/>
                             <constraint firstItem="a9h-1p-VM1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-155" id="X8b-1H-Zmy"/>
-                            <constraint firstAttribute="trailing" secondItem="uV2-8Z-WDR" secondAttribute="trailing" constant="-39" id="XFu-pQ-UnE"/>
                             <constraint firstItem="ePQ-T6-c7E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="200" id="Xsa-Ha-whj"/>
                             <constraint firstItem="uV2-8Z-WDR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-11" id="bso-Su-aVS"/>
                             <constraint firstItem="uV2-8Z-WDR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-414" id="fg3-50-G6j"/>
